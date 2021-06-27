@@ -6,10 +6,14 @@
 
 	<title>Martial Heroes</title>
 
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
 </head>
 <body>
 	<img class="top-banner" src="images/bg.jpg">
@@ -17,28 +21,26 @@
 	<header class="main-header">
 		<div class="main-container">
 			<div class="header-inner">
+				<a href="./" class="nav-logo"><img src="images/logo.png" alt="Martial Heroes Logo"></a>
 				<nav class="nav-left">
 					<ul>
-						<li><a href="#nowhere" title="discord">download</a></li>
-						<li><a href="#nowhere" title="discord">register</a></li>
+						<li><a href="#nowhere" title="discord">Home</a></li>
+						<li><a href="#nowhere" title="discord">Download</a></li>
 						<li>
-							<a href="#nowhere" title="discord">about</a>
+							<a href="#nowhere" title="discord">Rankings</a>
 							<div class="drop-down" style="background-image:url(images/drop-1.png)">
 								<ul>
-									<li><a href="#">About MH</a></li>
 									<li><a href="#">Top 100</a></li>
 									<li><a href="#">Hall of Fame</a></li>
 									<li><a href="#">Territorial Wars</a></li>
 								</ul>
 							</div>							
 						</li>
-					</ul>
-				</nav>				
-				<a href="./" class="nav-logo"><img src="images/logo.png" alt="Martial Heroes Logo"></a>
-				<nav class="nav-right">
-					<ul>
+						<li><a href="#nowhere" title="discord">About</a></li>
+
+						<li><a href="#nowhere" title="discord">register</a></li>
 						<li>
-							<a href="#nowhere" title="discord">guide</a>
+							<a href="#nowhere" title="discord">Game Guides</a>
 							<div class="drop-down" style="background-image:url(images/drop-1.png)">
 								<ul>
 									<li><a href="#">character</a></li>
@@ -49,168 +51,271 @@
 							</div>
 						</li>
 						<li><a href="#nowhere" title="discord">wiki</a></li>
-						<li>
-							<a href="#nowhere" title="discord">community</a>
-							<div class="drop-down" style="background-image:url(images/drop-2.png)">
-								<ul>
-									<li><a href="#">unofficial discord</a></li>
-									<li><a href="#">forums</a></li>
-								</ul>
-							</div>
-						</li>
+						<li><a href="#nowhere" title="discord">discord</a></li>
 					</ul>
 				</nav>
+				<a href="#nowhere" title="discord" class="sign-up-btn">
+					<span>Sign Up</span>
+					<img src="images/sign.png">
+				</a>
 			</div>
 		</div>
 	</header>
+
+	<div class="top-spacing">
+
+		<div class="main-container">
+			<div class="top-obj">
+				<img src="images/logo-main.png">
+				<a class="btn download-btn" href="#">
+					<div class="btn-txt">download</div>
+					<div class="btn-txt">game client</div>
+						<div class="petla">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="petla-linie">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div> 
+					<div class="btn-overlay"></div>
+					<div class="btn-borders"></div>
+					<div class="btn-bg"></div>
+					<div class="btn-gradients"></div>
+				</a>
+			</div>
+		</div>
+
+	</div>	
 
 	<div class="bmh-content">
 		<div class="main-container">
 			<div class="top-content">
 				<div class="row">
-					<div class="col-3">
-						<a class="btn download-btn" href="#">
-							<div class="btn-txt">Client</div>
-							<div class="btn-txt">Download</div>
- 							<div class="petla">
-								<div></div>
-								<div></div>
-								<div></div>
-								<div></div>
-							</div>
-							<div class="petla-linie">
-								<div></div>
-								<div></div>
-								<div></div>
-								<div></div>
-							</div> 
-							<div class="btn-overlay"></div>
-							<div class="btn-borders"></div>
-							<div class="btn-bg"></div>
-							<div class="btn-gradients"></div>
-						</a>
-						<div class="login-box">
-							<div>
-								<form>
-									<div class="login-cols">
-										<div>
-											<input type="text" name="login" placeholder="Login">
-											<input type="password" name="password" placeholder="Password">
-										</div>
-										<button class="btn login-btn">
-											<span class="btn-txt">GO!</span>
-				 							<div class="petla">
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-											</div>
-											<div class="petla-linie">
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-											</div> 
-											<div class="btn-overlay"></div>
-											<div class="btn-borders"></div>
-											<div class="btn-bg"></div>
-											<div class="btn-gradients"></div>
-										</button>										
-									</div>
-									<input type="checkbox" id="cbx" style="display: none;">
-									<label for="cbx" class="check">
-										<svg width="18px" height="18px" viewBox="0 0 18 18">
-											<path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
-											<polyline points="1 9 7 14 15 4"></polyline>
-										</svg>
-										<span>Remember me</span>
-									</label>									
-								</form>
-								<div class="frgt-reg">
-									<a href="#" class="link-2">Register</a><span>|</span><a href="#" class="link-2">Lost password?</a>
+					<div class="col-sm-12 col-lg-6">
+						<div class="slider">
+							<div class="single-slide" style="background-image:url(images/banners/1.jpg)">
+								<div class="banner-content">
+									<a href="#" class="slide-button">
+										<div></div>
+									</a>
+					        		<div class="banner-heading">
+										<div class="banner-date">01.06.21</div>
+					        			<h4>Play Now!</h4>
+					        			<div class="banner-sub-heading">Lorem ipsum dolor sit amet!</div>
+					        		</div>
 								</div>
 							</div>
-						</div>
+							<div class="single-slide" style="background-image:url(images/banners/1.jpg)">
+								<div class="banner-content">
+									<a href="#" class="slide-button">
+										<div></div>
+									</a>
+					        		<div class="banner-heading">
+										<div class="banner-date">01.06.21</div>
+					        			<h4>Play Now!</h4>
+					        			<div class="banner-sub-heading">Lorem ipsum dolor sit amet!</div>
+					        		</div>
+								</div>
+							</div>
+						</div>					
 					</div>
-					<div class="col-6 slider-col">
+					<div class="col-sm-12 col-lg-2" style="position: relative; z-index: 1">
+						<a class="image-box" style="background-image:url(images/front-backgrounds/forums.jpg)" href="#">
+							 <div class="image-box-text">
+							 	<div class="image-box-icon"></div>
+							 	<span>Forums</span>
+							 </div>
+						</a>
+						<a class="image-box" style="background-image:url(images/front-backgrounds/events.jpg)" href="#">
+							 <div class="image-box-text">
+							 	<div class="image-box-icon"></div>
+							 	<span>Events</span>
+							 </div>
+						</a>
+						<a class="image-box" style="background-image:url(images/front-backgrounds/wiki.jpg)" href="#">
+							 <div class="image-box-text">
+							 	<div class="image-box-icon"></div>
+							 	<span>Wiki</span>
+							 </div>
+						</a>
+					</div>
+					<div class="col-sm-12 col-lg-4">
 						<div class="box">
-							<div id="latest-slider">
-								<div class="banner-nav">
-								    <a href="#" class="control-prev"></a>
-								    <a href="#" class="control-next"></a>
+							<div class="box-inner">
+								<div class="box-top">
+									<h6>Discussion</h6>
+									<div class="box-top-icon">
+										<a class="icon-button icon-button-plus" href="#"><div></div></a>
+									</div>
 								</div>
-							    <ul>
-							        <li>
-							        	<div class="single-slide" style="background-image:url(images/banners/1.jpg)">
-							        		<div class="banner-heading">
-							        			<h4>We're going to launch soon!</h4>
-							        			<div class="banner-sub-heading">Lorem ipsum dolor sit amet!</div>
-							        		</div>
-						        			<div class="banner-bottom">
-												<a class="btn btn-small" href="#">
-													<div class="btn-txt">Read More</div>
-						 							<div class="petla">
-														<div></div>
-														<div></div>
-														<div></div>
-														<div></div>
-													</div>
-													<div class="petla-linie">
-														<div></div>
-														<div></div>
-														<div></div>
-														<div></div>
-													</div> 
-													<div class="btn-overlay"></div>
-													<div class="btn-borders"></div>
-													<div class="btn-bg"></div>
-													<div class="btn-gradients"></div>
-												</a>
-												<div class="banner-date">03.09.20</div>
-												<div class="banner-short-desc">Lorem ipsum dolor sit...</div>
-						        			</div>
-							        	</div>
-							        </li>
-							        <li>
-							        	<div class="single-slide" style="background-image:url(images/banners/1.jpg)">
-							        		
-							        	</div>
-							        </li>
-							        <li>
-							        	<div class="single-slide" style="background-image:url(images/banners/1.jpg)">
-							        		
-							        	</div>
-							        </li>
-							    </ul>
-							</div>						
-						</div>
-					</div>
-					<div class="col-3">
-
-						<a class="btn" href="#">
-							<div class="btn-txt">Heroes Market</div>
- 							<div class="petla">
-								<div></div>
-								<div></div>
-								<div></div>
-								<div></div>
+								<img src="images/home-discussion-banner.png" style="display: block; width: 100%; margin-top: 10px">
+								<div class="latest-posts">
+									<a class="latest-post" href="#">
+										<div class="latest-post-cat news">[news]</div>
+										<div class="latest-post-title">New sets and content update</div>
+										<div class="latest-post-date">06.06.2021</div>
+									</a>
+									<a class="latest-post" href="#">
+										<div class="latest-post-cat general">[general]</div>
+										<div class="latest-post-title">When content, anyone?</div>
+										<div class="latest-post-date">01.06.2021</div>
+									</a>
+									<a class="latest-post" href="#">
+										<div class="latest-post-cat event">[event]</div>
+										<div class="latest-post-title">Fireworks drop for 2 weeks</div>
+										<div class="latest-post-date">28.05.2021</div>
+									</a>
+									<a class="latest-post" href="#">
+										<div class="latest-post-cat support">[support]</div>
+										<div class="latest-post-title">How to play game?</div>
+										<div class="latest-post-date">22.05.2021</div>
+									</a>
+								</div>
 							</div>
-							<div class="petla-linie">
-								<div></div>
-								<div></div>
-								<div></div>
-								<div></div>
-							</div> 
-							<div class="btn-overlay"></div>
-							<div class="btn-borders"></div>
-							<div class="btn-bg"></div>
-							<div class="btn-gradients"></div>
-						</a>
-						
-							<img src="images/shop.jpg">
+						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="ranking">
+					<div class="section-heading">
+						<div class="section-heading-inner">
+							<div class="section-heading-wrapper">
+								<img src="images/icons/community.jpg">
+								<h6>Rankings</h6>
+							</div>
+						</div>
+					</div>
+					<div class="row ranking-columns">
+						<div class="col-6 ranking-column-container">
+							<div class="ranking-column">
+								<div class="pattern"></div>
+								<div class="ranking-column-inner">
+									<div class="ranking-column-head">
+										<h5><span>Top 5 Players</span></h5>
+										<img src="images/level-badge.png">
+									</div>
+									<div class="ranking-column-table">
+										<table>
+											<thead>
+												<tr>
+													<th>#</th>
+													<th>Username</th>
+													<th>Level</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><img src="images/stars/gold.png" width="20px"></td>
+													<td class="name">TakeoIschi</td>
+													<td class="level">200</td>
+												</tr>
+												<tr>
+													<td><img src="images/stars/silver.png" width="20px"></td>
+													<td class="name">Fritz</td>
+													<td class="level">199</td>
+												</tr>
+												<tr>
+													<td><img src="images/stars/bronze.png" width="20px"></td>
+													<td class="name">Zbychu</td>
+													<td class="level">180</td>
+												</tr>
+												<tr>
+													<td>4</td>
+													<td class="name">JebanyKarakan</td>
+													<td class="level">169</td>
+												</tr>
+												<tr>
+													<td>5</td>
+													<td class="name">GretaThunberg</td>
+													<td class="level">165</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 ranking-column-container">
+							<div class="ranking-column">
+								<div class="pattern"></div>
+								<div class="ranking-column-inner">
+									<div class="ranking-column-head">
+										<h5><span>Top 5 Guilds</span></h5>
+										<img src="images/guilds-badge.png">
+									</div>
+									<div class="ranking-column-table guild-ranking">
+										<table>
+											<thead>
+												<tr>
+													<th>#</th>
+													<th>Username</th>
+													<th>Score</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><img src="images/stars/gold.png" width="20px"></td>
+													<td class="name">
+														<div class="guild-logo">
+															<div style="background-image:url(images/guilds/ap.png)"></div>
+														</div>														
+														<span>AmorPatriae</span>
+													</td>
+													<td class="level">27504</td>
+												</tr>
+												<tr>
+													<td><img src="images/stars/silver.png" width="20px"></td>
+													<td class="name">
+														<div class="guild-logo">
+															<div style="background-image:url(images/guilds/pg.png)"></div>
+														</div>														
+														<span>PolskaGildia</span>
+													</td>
+													<td class="level">21502</td>
+												</tr>
+												<tr>
+													<td><img src="images/stars/bronze.png" width="20px"></td>
+													<td class="name">
+														<div class="guild-logo">
+															<div style="background-image:url(images/guilds/ch.png)"></div>
+														</div>														
+														<span>Chaos</span>
+													</td>
+													<td class="level">18250</td>
+												</tr>
+												<tr>
+													<td>4</td>
+													<td class="name">
+														<div class="guild-logo">
+															<div style="background-image:url(images/guilds/zd.png)"></div>
+														</div>														
+														<span>Zodiac</span>
+													</td>
+													<td class="level">2</td>
+												</tr>
+												<tr>
+													<td>5</td>
+													<td class="name">
+														<div class="guild-logo">
+															<div style="background-image:url(images/guilds/fb.png)"></div>
+														</div>														
+														<span>LayingBricks</span>
+													</td>
+													<td class="level">0</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<!--<div class="row">
 					<div class="col-9 news-col">
 						<div class="box">
 							<div class="box-content">
@@ -643,6 +748,58 @@
 							</div>
 						</div>	 											
 					</div>
+				</div>-->
+			</div>
+		</div>
+	</div>
+
+	<div class="home-classes">
+		<div class="pattern"></div>
+		<div class="aura">
+			<div></div>
+		</div>
+		<div class="main-container">
+			<h1 class="section-watermark">class</h1>
+			<div class="class-slider">
+				<div class="class-single">
+					<div class="row">
+						<div class="col-sm-12 col-md-6 class-info">
+							<h3><span>Warrior</span></h3>
+							<h5>Strength and health</h5>
+							<h6><span>Abilities</span></h6>
+							<div class="class-stats">
+								<div class="class-stat-single">
+									<span>Damage</span>
+									<div class="class-stat-bar orange" style="width: 55%"></div>
+									<div class="class-stat-value">750</div>
+								</div>
+								<div class="class-stat-single">
+									<span>Health</span>
+									<div class="class-stat-bar green" style="width: 100%"></div>
+									<div class="class-stat-value">1200</div>
+								</div>
+								<div class="class-stat-single">
+									<span>Defense</span>
+									<div class="class-stat-bar semi-green" style="width: 75%"></div>
+									<div class="class-stat-value green">1100</div>
+								</div>
+								<div class="class-stat-single">
+									<span>Range</span>
+									<div class="class-stat-bar red" style="width: 30%"></div>
+									<div class="class-stat-value">500</div>
+								</div>
+							</div>
+							<h6><span>Weapons</span></h6>
+							<div class="class-weapons">
+								<img src="images/icons/weapons/warrior/simi.png">
+								<img src="images/icons/weapons/warrior/lance.png">
+								<img src="images/icons/weapons/warrior/axe.png">
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-6">
+							<img src="images/classes/warrior.png">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -651,7 +808,7 @@
 	<footer>
 		<div class="main-container">
 			<div class="footer-top">
-				<img src="images/logo.png" class="footer-logo">
+				<img src="images/logo-main.png" class="footer-logo">
 			</div>
 			<div class="footer-menu">
 				<ul>
@@ -672,49 +829,12 @@
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
 
 	<script type="text/javascript">
-		$(function() {
-		    var slideCount = $('#latest-slider ul li').length;
-		    var slideWidth = $('#latest-slider ul li').width();
-		    var slideHeight = $('#latest-slider ul li').height();
-		    var sliderUlWidth = slideCount * slideWidth;
-
-		    $('#latest-slider ul').css({
-		        width: sliderUlWidth,
-		        marginLeft: -slideWidth
-		    });
-
-		    $('#latest-slider ul li:last-child').prependTo('#latest-slider ul');
-
-		    function moveLeft() {
-		        $('#latest-slider ul').animate({
-		            left: +slideWidth
-		        }, 200, function () {
-		            $('#latest-slider ul li:last-child').prependTo('#latest-slider ul');
-		            $('#latest-slider ul').css('left', '');
-		        });
-		    };
-
-		    function moveRight() {
-		        $('#latest-slider ul').animate({
-		            left: -slideWidth
-		        }, 200, function () {
-		            $('#latest-slider ul li:first-child').appendTo('#latest-slider ul');
-		            $('#latest-slider ul').css('left', '');
-		        });
-		    };
-
-		    $('a.control-prev').click(function (e) {
-		    	e.preventDefault();
-		        moveLeft();
-		    });
-
-		    $('a.control-next').click(function (e) {
-		    	e.preventDefault();
-		        moveRight();
-		    });
-		});		
+		$(document).ready(function(){
+			$('.slider').slick();
+		})
 	</script>	
 </body>
 </html>
